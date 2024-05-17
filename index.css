@@ -1,0 +1,9 @@
+header {
+    background-color: rgb(245, 219, 250);
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style-type:none;
+}
