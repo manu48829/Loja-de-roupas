@@ -1,9 +1,45 @@
 header {
-    background-color: rgb(245, 219, 250);
-    text-align: center;
-    padding: 20px;
+   background-color: #ffffff;
+   color:#6c6c6b;
+   text-align: left;
+   vertical-align: bottom;
 }
 
-ul {
-    list-style-type:none;
+
+nav {
+   text-align: right;
+   vertical-align: top;
+}
+
+nav ul li {
+   display: inline-block;
+   vertical-align: top; 
+   margin-top: 5px; 
+}
+
+
+
+li {
+   list-style-type:none;
+   text-align: right;
+   display: inline-block;;
+
+}
+
+
+
+.grupo-fotos {
+   display: flex;
+   justify-content:space-between;
+}
+
+img {
+   width: 225px;
+}
+
+.banner{
+   width: 900px;
+   display: block;
+   margin: auto;
+   vertical-align: top;
 }
